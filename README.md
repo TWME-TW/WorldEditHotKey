@@ -10,8 +10,8 @@ A simple Minecraft Bukkit/Spigot plugin that adds hotkey support for WorldEdit u
 ## Requirements
 
 - Minecraft server with Bukkit or Spigot API
-- WorldEdit plugin installed
-- Java 8 or above
+- WorldEdit/FastAsyncWorldEdit plugin installed
+- Java 17 or above
 
 ## Installation
 
