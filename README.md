@@ -11,7 +11,7 @@ A simple Minecraft Bukkit/Spigot plugin that adds hotkey support for WorldEdit u
 
 - Minecraft server with Bukkit or Spigot API
 - WorldEdit/FastAsyncWorldEdit plugin installed
-- Java 17 or above
+- Java 21 or above
 
 ## Installation
 
