@@ -24,9 +24,9 @@ public final class WorldEditHotKey extends JavaPlugin implements Listener {
     @EventHandler
     public void onPlayerDropItem(PlayerDropItemEvent event) {
         Player player = event.getPlayer();
-        if (player.hasPermission("worldedit.wand") &&
-            player.getInventory().getItemInMainHand().getType() == Material.WOODEN_AXE) {
-            player.performCommand("//undo");
+        if (player.hasPermission("worldedit.wand") && event.getItemDrop().getItemStack().getType() == Material.WOODEN_AXE) {
+            player.performCommand("/undo");
+            event.setCancelled(true);
         }
     }
 
@@ -34,9 +34,9 @@ public final class WorldEditHotKey extends JavaPlugin implements Listener {
     public void onPlayerSwapHandItems(PlayerSwapHandItemsEvent event) {
         Player player = event.getPlayer();
         if (player.hasPermission("worldedit.wand") &&
-            event.getMainHandItem() != null &&
-            event.getMainHandItem().getType() == Material.WOODEN_AXE) {
-            player.performCommand("//redo");
+            event.getOffHandItem().getType() == Material.WOODEN_AXE) {
+            player.performCommand("/redo");
+            event.setCancelled(true);
         }
     }
 }
