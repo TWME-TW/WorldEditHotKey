@@ -1,5 +1,5 @@
 name: WorldEditHotKey
 version: '0.0.1'
 main: dev.twme.worldEditHotKey.WorldEditHotKey
-api-version: '1.21'
+api-version: '1.13'
 authors: [ TWME-TW ]
