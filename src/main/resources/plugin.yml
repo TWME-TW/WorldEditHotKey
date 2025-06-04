@@ -1,5 +1,5 @@
 name: WorldEditHotKey
 version: '${project.version}'
 main: dev.twme.worldEditHotKey.WorldEditHotKey
-api-version: '1.21'
+api-version: '1.13'
 authors: [ TWME-TW ]
