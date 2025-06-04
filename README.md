@@ -4,8 +4,8 @@ A simple Minecraft Bukkit/Spigot plugin that adds hotkey support for WorldEdit u
 
 ## Features
 
-- When a player with the `worldedit.wand` permission holds a wooden axe and drops it (presses Q), the plugin automatically executes the  command for them.
-- When a player with the `worldedit.wand` permission holds a wooden axe and swaps items between hands (presses F), the plugin automatically executes the  command for them.
+- When a player with the `worldedit.wand` permission holds a wooden axe and drops it (presses Q), the plugin automatically executes the `//undo` command for them.
+- When a player with the `worldedit.wand` permission holds a wooden axe and swaps items between hands (presses F), the plugin automatically executes the `//redo` command for them.
 
 ## Requirements
 
